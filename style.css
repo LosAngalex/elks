@@ -1,11 +1,67 @@
-p {
-  color: red;
-  font-family: Roboto;
-  font-size: 200px;
+header {
+  background-image: url(assets/wood-header.png);
+  height: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-p3 {
-  color: orange;
-  font-size: 50px;
-  font-family: Volkhov;
+logo img {
+  float: left;
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 1%
 }
+
+ul {
+  background-color: #1f140e;
+  height: 42px;
+  margin-bottom: 0;
+}
+
+li {
+    font-family: volkhov;
+    font-size: 16px;
+    display: inline;
+}
+
+li a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 5%;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .inner {
+    position: relative;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+.hero {
+  height: 500px;
+  width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 5% 0;
+    color: #fff;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  h2 {
+    margin-top: 18%;
+    font-size: 26px;
+  }
